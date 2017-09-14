@@ -1,5 +1,5 @@
-FROM ubuntu:16.04
-MAINTAINER Phusion <info@phusion.nl>
+FROM arm32v7/ubuntu:16.04
+MAINTAINER gleichsnerd
 
 COPY . /bd_build
 
